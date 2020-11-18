@@ -1,12 +1,14 @@
 import numpy as np
 
 #Identity Matrix
-# print(np.eye(3))
+# print(np.eye(5))
 
+#Matrix of all 0s
 zero = np.zeros((3, 4))
 # print(zero)
 
-# print(np.full((5,2), 7))
+#Create a matrix where we specify the size, then specify number to fill the matrix
+print(np.full((5,2), 7))
 
 M = np.array([[1,2,3], 
               [4,5,6], 
